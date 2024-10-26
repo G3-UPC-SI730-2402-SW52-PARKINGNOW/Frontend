@@ -109,6 +109,9 @@ export default {
     onSubmit() {
       // Lógica para enviar el formulario
       console.log('Formulario enviado:', this.registerOwnerForm);
+
+      // Redirigir al DashboardOwner después del registro
+      this.$router.push({ name: 'DashboardOwner' });
     },
     changeLanguage(lang) {
       this.$i18n.locale = lang; // Cambia el idioma

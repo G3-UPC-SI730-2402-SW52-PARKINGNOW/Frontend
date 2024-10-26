@@ -9,7 +9,11 @@ import ConfigurationDriver from './pages/ConfigurationDriver.vue';
 import ReservationsDriver from './pages/ReservationsDriver.vue';
 import SupportDriver from './pages/SupportDriver.vue';
 import VehicleTrackingDriver from './pages/VehicleTrackingDriver.vue';
-import NotificationsDriver from './pages/NotificationsDriver.vue'; // Asegúrate de que esta línea esté correcta
+import LocalRecordOwner from './pages/LocalRecordOwner.vue';
+import OwnerSecurity from './pages/OwnerSecurity.vue'; // Nueva ruta para OwnerSecurity
+import DashboardOwner from './pages/DashboardOwner.vue';
+import OwnerReservations from './pages/OwnerReservations.vue'; // Asegúrate de que este archivo existe
+import OwnerConfiguration from './pages/OwnerConfiguration.vue'; // Nueva ruta para OwnerConfiguration
 
 const routes = [
     { path: '/', redirect: '/login' },
@@ -23,7 +27,11 @@ const routes = [
     { path: '/reservations-driver', name: 'ReservationsDriver', component: ReservationsDriver },
     { path: '/support-driver', name: 'SupportDriver', component: SupportDriver },
     { path: '/vehicle-tracking-driver', name: 'VehicleTrackingDriver', component: VehicleTrackingDriver },
-    { path: '/notifications-driver', name: 'NotificationsDriver', component: NotificationsDriver }, // Ruta correcta
+    { path: '/local-records', name: 'LocalRecordOwner', component: LocalRecordOwner },
+    { path: '/owner-security', name: 'OwnerSecurity', component: OwnerSecurity }, // Nueva ruta para OwnerSecurity
+    { path: '/dashboard-owner', name: 'DashboardOwner', component: DashboardOwner },
+    { path: '/owner-reservations', name: 'OwnerReservations', component: OwnerReservations }, // Ruta para OwnerReservations
+    { path: '/owner-configuration', name: 'OwnerConfiguration', component: OwnerConfiguration } // Nueva ruta para OwnerConfiguration
 ];
 
 const router = createRouter({

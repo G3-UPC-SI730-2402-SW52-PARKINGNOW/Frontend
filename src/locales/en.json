@@ -1,4 +1,18 @@
 {
+  "OWNER_SECURITY": {
+    "BACK_TO_HOME": "Back to Home",
+    "TITLE": "Owner Security",
+    "DESCRIPTION": "Manage your vehicle security and alerts here.",
+    "REGISTERED_VEHICLES": "Registered Vehicles",
+    "TABLE_HEADERS": {
+      "PLATE": "Plate",
+      "MODEL": "Model",
+      "OWNER": "Owner"
+    },
+    "ALERTS": {
+      "TITLE": "Alerts"
+    }
+  },
   "login": {
     "title": "Ensure your space from the comfort of your home",
     "noAccount": "Don't have an account?",
@@ -77,13 +91,40 @@
     "ADDRESS_ERROR": "Address is required",
     "SUBMIT_BUTTON": "Register"
   },
-  "DASHBOARD": {
-    "WELCOME": "Welcome",
-    "FAVORITE_PLACES": "Favorite Places",
-    "FAVORITE_PLACES_DESC": "Here you can find your favorite places.",
-    "WEEKLY_OFFERS": "Weekly Offers",
-    "WEEKLY_OFFERS_DESC": "Check out the weekly offers available.",
-    "RESERVE_NOW": "Reserve Now"
+  "DASHBOARD_OWNER": {
+    "WELCOME": "Welcome to the Dashboard",
+    "TODAY_RESERVATIONS": "Today's Reservations",
+    "SCHEDULED_RESERVATIONS": "You have no scheduled reservations.",
+    "SPACES": "Spaces",
+    "SPACES_DESC": "Available parking spaces."
+  },
+  "LOCAL_RECORDS": {
+    "WELCOME": "Welcome to Local Records",
+    "MANAGE_RECORDS": "Manage your records here.",
+    "TITLE": "Records",
+    "RECORDS": "Here are your records.",
+    "STATISTICS": "Statistics",
+    "STATISTICS_DESC": "See the statistics related to your records.",
+    "BACK_TO_HOME": "Back to Home"
+  },
+  "OWNER_RESERVATIONS": {
+    "BACK_TO_HOME": "Back to Home",
+    "TITLE": "Owner Reservations",
+    "DESCRIPTION": "Here you can manage reservations.",
+    "FILTER": {
+      "RESERVATION_ID": "Reservation ID",
+      "RESERVATION_DATE": "Reservation Date",
+      "USER": "User",
+      "APPLY_FILTER": "Apply Filter"
+    },
+    "RESERVATIONS_LIST": "Reservations List",
+    "TABLE_HEADERS": {
+      "ID": "ID",
+      "USER": "User",
+      "DATE": "Date",
+      "ACTION": "Action"
+    },
+    "CANCEL": "Cancel"
   },
   "SIDEBAR": {
     "HOME": "Home",
@@ -147,26 +188,36 @@
     "PRIVACY_POLICY": {
       "TITLE": "Privacy Policy",
       "DESCRIPTION": "Review our privacy policy to understand how we handle your information.",
-      "CONTENT": "Privacy information is detailed here.",
-      "SHOW_MORE": "Show more",
-      "SHOW_LESS": "Show less"
+      "CONTENT": {
+        "TITLE": "Privacy Content",
+        "TEXT": "This is the privacy content.",
+        "COLLECTION_TITLE": "Information We Collect",
+        "COLLECTION_TEXT": "We collect the following information:",
+        "FULL_NAME": "Full Name",
+        "EMAIL": "Email",
+        "VEHICLE_INFO": "Vehicle Information",
+        "LOCATION": "Location",
+        "PAYMENT_INFO": "Payment Information",
+        "USE_TITLE": "How We Use Your Information",
+        "USE_TEXT": "We use your information to:",
+        "MANAGE_ACCOUNT": "Manage your account",
+        "NOTIFICATIONS": "Send notifications",
+        "IMPROVE_EXPERIENCE": "Improve your experience",
+        "SHARING_TITLE": "Sharing Your Information",
+        "SHARING_TEXT": "We do not share your information without consent.",
+        "SECURITY_TITLE": "Security of Your Information",
+        "SECURITY_TEXT": "We take security seriously and protect your information.",
+        "RIGHTS_TITLE": "Your Rights",
+        "RIGHTS_TEXT": "You have rights regarding your information.",
+        "CHANGES_TITLE": "Changes to This Policy",
+        "CHANGES_TEXT": "We may update this policy occasionally."
+      }
     },
-    "THEFT_REPORT": {
-      "TITLE": "Theft Report",
-      "DESCRIPTION": "Enter your theft report details here.",
-      "SUBMIT": "Submit Report"
-    },
+    "SHOW_MORE": "Show More",
     "DELETE_ACCOUNT": {
       "TITLE": "Delete Account",
       "CONFIRMATION": "Are you sure you want to delete your account? This action cannot be undone.",
       "DELETE_BUTTON": "Delete Account"
-    },
-    "REFUND": {
-      "TITLE": "Refund",
-      "NAME": "Name",
-      "EMAIL": "Email",
-      "REASON": "Reason",
-      "SUBMIT": "Submit"
     },
     "BACK_TO_HOME": "Back to Home"
   },
@@ -184,6 +235,60 @@
       "LUGAR_001": "Favorite Place 1",
       "LUGAR_002": "Favorite Place 2",
       "LUGAR_003": "Favorite Place 3"
+    }
+  },
+  "OWNER_CONFIGURATION": {
+    "TITLE": "Owner Configuration",
+    "SUBTITLE": "Adjust your account settings here.",
+    "ACCOUNT_DETAILS": "Account Details",
+    "UPDATE": "Update Information",
+    "CHANGE_PASSWORD": "Change Password",
+    "NOTIFICATIONS": "Notifications",
+    "ENABLE_NOTIFICATIONS": "Enable Notifications",
+    "LANGUAGE": {
+      "TITLE": "Language",
+      "SPANISH": "Spanish",
+      "ENGLISH": "English"
+    },
+    "SHOW_MORE": "Show More",
+    "THEFT_REPORT": {
+      "TITLE": "Theft Report",
+      "DESCRIPTION": "Enter your theft report details here.",
+      "SUBMIT": "Submit Report"
+    },
+    "DELETE_ACCOUNT": {
+      "TITLE": "Delete Account",
+      "CONFIRMATION": "Are you sure you want to delete your account? This action cannot be undone.",
+      "DELETE_BUTTON": "Delete Account"
+    },
+    "BACK_TO_HOME": "Back to Home",
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy Policy",
+      "DESCRIPTION": "Review our privacy policy to understand how we handle your information.",
+      "CONTENT": {
+        "TITLE": "Privacy Content",
+        "TEXT": "This is the privacy content.",
+        "COLLECTION_TITLE": "Information We Collect",
+        "COLLECTION_TEXT": "We collect the following information:",
+        "FULL_NAME": "Full Name",
+        "EMAIL": "Email",
+        "VEHICLE_INFO": "Vehicle Information",
+        "LOCATION": "Location",
+        "PAYMENT_INFO": "Payment Information",
+        "USE_TITLE": "How We Use Your Information",
+        "USE_TEXT": "We use your information to:",
+        "MANAGE_ACCOUNT": "Manage your account",
+        "NOTIFICATIONS": "Send notifications",
+        "IMPROVE_EXPERIENCE": "Improve your experience",
+        "SHARING_TITLE": "Sharing Your Information",
+        "SHARING_TEXT": "We do not share your information without consent.",
+        "SECURITY_TITLE": "Security of Your Information",
+        "SECURITY_TEXT": "We take security seriously and protect your information.",
+        "RIGHTS_TITLE": "Your Rights",
+        "RIGHTS_TEXT": "You have rights regarding your information.",
+        "CHANGES_TITLE": "Changes to This Policy",
+        "CHANGES_TEXT": "We may update this policy occasionally."
+      }
     }
   }
 }
