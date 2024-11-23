@@ -1,0 +1,399 @@
+{
+  "OWNER_SECURITY": {
+    "BACK_TO_HOME": "Back to Home",
+    "TITLE": "Owner Security",
+    "DESCRIPTION": "Manage your vehicle security and alerts here.",
+    "REGISTERED_VEHICLES": "Registered Vehicles",
+    "TABLE_HEADERS": {
+      "PLATE": "Plate",
+      "MODEL": "Model",
+      "OWNER": "Owner"
+    },
+    "ALERTS": {
+      "TITLE": "Alerts"
+    }
+  },
+  "login": {
+    "title": "Ensure your space from the comfort of your home",
+    "noAccount": "Don't have an account?",
+    "registerHere": "Register here",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign in"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "subtitle": "Please enter your email to reset your password.",
+    "email": "Email",
+    "submit": "SEND",
+    "back_to_login": "Back to login"
+  },
+  "register": {
+    "title": "Register",
+    "driver": "Driver",
+    "driver_description": "Register as a driver to access information about all available parking lots in the city, as well as promotions and notifications about nearby spaces.",
+    "driver_button": "Register as Driver",
+    "owner": "Parking Lot Owner",
+    "owner_description": "Register as an owner to manage your parking spaces, receive payments quickly and securely, and facilitate access for your clients through the application.",
+    "owner_button": "Register as Owner"
+  },
+  "REGISTER_DRIVER": {
+    "TITLE": "Driver Registration",
+    "SUBTITLE": "Please complete the form below to register as a driver.",
+    "FIRST_NAME": "First Name",
+    "FIRST_NAME_PLACEHOLDER": "Enter your first name",
+    "FIRST_NAME_ERROR": "First name is required",
+    "LAST_NAME": "Last Name",
+    "LAST_NAME_PLACEHOLDER": "Enter your last name",
+    "LAST_NAME_ERROR": "Last name is required",
+    "EMAIL": "Email",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "EMAIL_ERROR": "Email is required",
+    "PASSWORD": "Password",
+    "PASSWORD_PLACEHOLDER": "Enter your password",
+    "PASSWORD_ERROR": "Password is required",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Confirm your password",
+    "CONFIRM_PASSWORD_ERROR": "Confirmation is required",
+    "VEHICLE_PLATE": "Vehicle Plate",
+    "VEHICLE_PLATE_PLACEHOLDER": "Enter your vehicle plate",
+    "VEHICLE_PLATE_ERROR": "Vehicle plate is required",
+    "DNI": "DNI",
+    "DNI_PLACEHOLDER": "Enter your DNI",
+    "DNI_ERROR": "DNI is required",
+    "SUBMIT_BUTTON": "Register"
+  },
+  "REGISTER_OWNER": {
+    "TITLE": "Owner Registration",
+    "SUBTITLE": "Please complete the form below to register as an owner.",
+    "FULL_NAME": "Full Name",
+    "FULL_NAME_PLACEHOLDER": "Enter your full name",
+    "FULL_NAME_ERROR": "Full name is required",
+    "BUSINESS_NAME": "Business Name",
+    "BUSINESS_NAME_PLACEHOLDER": "Enter your business name",
+    "BUSINESS_NAME_ERROR": "Business name is required",
+    "EMAIL": "Email",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "EMAIL_ERROR": "Email is required",
+    "PASSWORD": "Password",
+    "PASSWORD_PLACEHOLDER": "Enter your password",
+    "PASSWORD_ERROR": "Password is required",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Confirm your password",
+    "CONFIRM_PASSWORD_ERROR": "Confirmation is required",
+    "RUC": "RUC",
+    "RUC_PLACEHOLDER": "Enter your RUC",
+    "RUC_ERROR": "RUC is required",
+    "ADDRESS": "Address",
+    "ADDRESS_PLACEHOLDER": "Enter your address",
+    "ADDRESS_ERROR": "Address is required",
+    "SUBMIT_BUTTON": "Register"
+  },
+  "DASHBOARD_OWNER": {
+    "WELCOME": "Welcome to the Dashboard",
+    "TODAY_RESERVATIONS": "Today's Reservations",
+    "SCHEDULED_RESERVATIONS": "You have no scheduled reservations.",
+    "SPACES": "Spaces",
+    "SPACES_DESC": "Available parking spaces.",
+    "HOME": "Home",
+    "RESERVATIONS": "Reservations",
+    "TRACKING_AND_ALARMS": "Tracking and Alarms",
+    "SETTINGS": "Settings",
+    "LOGOUT": "Logout",
+    "ES": "ES",
+    "EN": "EN"
+  },
+  "LOCAL_RECORDS": {
+    "WELCOME": "Welcome to Local Records",
+    "MANAGE_RECORDS": "Manage your records here.",
+    "TITLE": "Records",
+    "RECORDS": "Here are your records.",
+    "STATISTICS": "Statistics",
+    "STATISTICS_DESC": "See the statistics related to your records.",
+    "BACK_TO_HOME": "Back to Home"
+  },
+  "OWNER_RESERVATIONS": {
+    "BACK_TO_HOME": "Back to Home",
+    "TITLE": "Owner Reservations",
+    "DESCRIPTION": "Here you can manage reservations.",
+    "FILTER": {
+      "RESERVATION_ID": "Reservation ID",
+      "RESERVATION_DATE": "Reservation Date",
+      "USER": "User",
+      "APPLY_FILTER": "Apply Filter"
+    },
+    "RESERVATIONS_LIST": "Reservations List",
+    "TABLE_HEADERS": {
+      "ID": "ID",
+      "USER": "User",
+      "DATE": "Date",
+      "ACTION": "Action"
+    },
+    "CANCEL": "Cancel"
+  },
+  "SIDEBAR": {
+    "HOME": "Home",
+    "RESERVATIONS": "Reservations",
+    "SUPPORT": "Support",
+    "TRACKING_AND_ALARMS": "Tracking and Alarms",
+    "SETTINGS": "Settings",
+    "NOTIFICATIONS": "Notifications",
+    "LOGOUT": "Logout"
+  },
+  "RESERVATIONS": {
+    "TITLE": "Manage Parking Reservations",
+    "VEHICLE_REGISTRATION_LABEL": "Vehicle Registration*",
+    "VEHICLE_REGISTRATION_PLACEHOLDER": "E.g. ABCD-1234",
+    "VEHICLE_TYPE_LABEL": "Vehicle Type*",
+    "VEHICLE_TYPE_OPTIONS": {
+      "MOTORCYCLE": "Motorcycle",
+      "TRUCK": "Truck",
+      "CAR": "Car"
+    },
+    "RESERVATION_TIME_LABEL": "Reservation Time*",
+    "RESERVE_BUTTON": "Reserve",
+    "PAY_BUTTON": "Pay",
+    "CURRENT_RESERVATIONS_TITLE": "Current Reservations",
+    "NO_CURRENT_RESERVATIONS": "You have no active reservations at this moment.",
+    "TABLE_HEADERS": {
+      "ID": "ID",
+      "VEHICLE_REGISTRATION": "Registration",
+      "VEHICLE_TYPE": "Type",
+      "RESERVATION_TIME": "Time",
+      "ACTIONS": "Action"
+    }
+  },
+  "MAPS": {
+    "TITLE": "Maps"
+  },
+  "PARKING_RECOMMENDATIONS": {
+    "TITLE": "Parking Recommendations",
+    "LARCOMAR": {
+      "NAME": "Larcomar Parking",
+      "PRICE": "Price: S/ 5"
+    },
+    "JOCKEY_PLAZA": {
+      "NAME": "Jockey Plaza Parking",
+      "PRICE": "Price: S/ 4"
+    },
+    "REAL_PLAZA": {
+      "NAME": "Real Plaza Parking",
+      "PRICE": "Price: S/ 6"
+    },
+    "PLAZA_NORTE": {
+      "NAME": "Plaza Norte Parking",
+      "PRICE": "Price: S/ 3"
+    },
+    "MEGA_PLAZA": {
+      "NAME": "Mega Plaza Parking",
+      "PRICE": "Price: S/ 4"
+    },
+    "KENNEDY": {
+      "NAME": "Kennedy Parking",
+      "PRICE": "Price: S/ 5"
+    },
+    "LINK_TEXT": "Go"
+  },
+  "SUPPORT": {
+    "TITLE": "Driver Support",
+    "VIRTUAL_ASSISTANCE_TITLE": "Virtual Assistance",
+    "VIRTUAL_ASSISTANCE_DESCRIPTION": "If you have any questions, please complete the form below.",
+    "INPUT_LABEL": "Write your question here",
+    "SEND_BUTTON": "Send",
+    "CONTACT_US_TITLE": "Contact Us",
+    "CONTACT_US_DESCRIPTION": "Connect with us through our social media.",
+    "BACK_TO_HOME": "Back to Home"
+  },
+  "VEHICLE_TRACKING": {
+    "TITLE": "Vehicle Tracking",
+    "WELCOME": "Welcome to Vehicle Tracking",
+    "REGISTERED_CARS": "Registered Cars",
+    "REGISTERED_CARS_SUBTEXT": "Below are your registered vehicles:",
+    "LATEST_ALERTS": "Latest Alerts",
+    "LATEST_ALERTS_SUBTEXT": "Check recent alerts for your vehicles:",
+    "SENSOR_TITLE": "Sensor Status",
+    "SENSOR_DESCRIPTION": "Monitor real-time data from your vehicle's sensor.",
+    "BACK_TO_HOME": "Back to Home",
+    "ALERT_1": "Sensor A activated",
+    "ALERT_1_DATE": "2024-10-25",
+    "ALERT_2": "Sensor B deactivated",
+    "ALERT_2_DATE": "2024-10-24",
+    "payment_page": {
+      "title": "Payment Page",
+      "subtitle": "Complete the payment process for the selected parking.",
+      "selected_parking": "Selected Parking",
+      "amount_to_pay": "Amount to Pay",
+      "payment_methods": {
+        "visa": "Visa",
+        "bcp": "BCP",
+        "yape": "Yape"
+      },
+      "card_number": "Card Number",
+      "expiration_date": "Expiration Date (MM/YY)",
+      "cvv": "CVV",
+      "card_holder_name": "Card Holder's Name",
+      "phone_number": "Phone Number",
+      "approval_code": "Approval Code",
+      "actions": {
+        "pay": "Pay",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "required": "This field is required.",
+        "invalid_card_number": "Invalid card number.",
+        "invalid_expiration_date": "Format MM/YY",
+        "invalid_cvv": "Invalid CVV.",
+        "invalid_phone_number": "Invalid phone number.",
+        "invalid_approval_code": "Invalid approval code."
+      }
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Settings",
+    "LANGUAGE": {
+      "TITLE": "Language",
+      "SPANISH": "Spanish",
+      "ENGLISH": "English"
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy Policy",
+      "DESCRIPTION": "Review our privacy policy to understand how we handle your information.",
+      "CONTENT": {
+        "TITLE": "Privacy Content",
+        "TEXT": "The privacy information is detailed here.",
+        "COLLECTION_TITLE": "Information We Collect",
+        "COLLECTION_TEXT": "We collect the following information:",
+        "FULL_NAME": "Full Name",
+        "EMAIL": "Email",
+        "VEHICLE_INFO": "Vehicle Information",
+        "LOCATION": "Location",
+        "PAYMENT_INFO": "Payment Information",
+        "USE_TITLE": "How We Use Your Information",
+        "USE_TEXT": "We use your information to:",
+        "MANAGE_ACCOUNT": "Manage your account",
+        "NOTIFICATIONS": "Send notifications",
+        "IMPROVE_EXPERIENCE": "Improve your experience",
+        "SHARING_TITLE": "Sharing Your Information",
+        "SHARING_TEXT": "We do not share your information without consent.",
+        "SECURITY_TITLE": "Security of Your Information",
+        "SECURITY_TEXT": "We take security seriously and protect your information.",
+        "RIGHTS_TITLE": "Your Rights",
+        "RIGHTS_TEXT": "You have rights regarding your information.",
+        "CHANGES_TITLE": "Changes to This Policy",
+        "CHANGES_TEXT": "We may update this policy occasionally."
+      }
+    },
+    "SHOW_MORE": "Show More",
+    "SHOW_LESS": "Show Less",
+    "THEFT_REPORT": {
+      "TITLE": "Theft Report",
+      "DESCRIPTION": "Enter the details of your theft report here.",
+      "SUBMIT": "Submit Report"
+    },
+    "DELETE_ACCOUNT": {
+      "TITLE": "Delete Account",
+      "CONFIRMATION": "Are you sure you want to delete your account? This action cannot be undone.",
+      "DELETE_BUTTON": "Delete Account"
+    },
+    "REFUND": {
+      "TITLE": "Refund",
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "REASON": "Reason",
+      "SUBMIT": "Submit"
+    },
+    "BACK_TO_HOME": "Back to Home"
+  },
+  "NOTIFICATIONS": {
+    "TITLE": "Notifications",
+    "BACK_TO_HOME": "Back to Home",
+    "RECEIPTS": "Receipts",
+    "RECEIPT_LIST": {
+      "RECIBO_001": "Receipt #001",
+      "RECIBO_002": "Receipt #002",
+      "RECIBO_003": "Receipt #003"
+    },
+    "FAVORITE_PLACES": "Favorite Places",
+    "FAVORITE_PLACES_LIST": {
+      "LUGAR_001": "Favorite Place 1",
+      "LUGAR_002": "Favorite Place 2",
+      "LUGAR_003": "Favorite Place 3"
+    }
+  },
+  "DASHBOARD_DRIVER": {
+    "WELCOME": "Welcome to the Driver Panel",
+    "FAVORITE_PLACES": "Favorite Places",
+    "FAVORITE_PLACES_DESC": "Quick access to your frequently used parking places.",
+    "WEEKLY_OFFERS": "Weekly Offers",
+    "WEEKLY_OFFERS_DESC": "Check the latest discounts and promotions for parking.",
+    "RESERVE_NOW": "Reserve Now",
+    "CURRENT_RESERVATIONS": "Your Current Reservations",
+    "NO_RESERVATIONS": "You have no active reservations at this moment.",
+    "RESERVATION_HISTORY": "Reservation History",
+    "RESERVATION_HISTORY_DESC": "Check your past parking reservations.",
+    "SUPPORT": "Driver Support",
+    "SUPPORT_DESC": "Get help and find answers to frequently asked questions.",
+    "SETTINGS": "Settings",
+    "SETTINGS_DESC": "Update your preferences and account details.",
+    "LOGOUT": "Log Out"
+  },
+  "OWNER_CONFIGURATION": {
+    "TITLE": "Owner Configuration",
+    "SUBTITLE": "Adjust your account settings here.",
+    "ACCOUNT_DETAILS": "Account Details",
+    "UPDATE": "Update Information",
+    "CHANGE_PASSWORD": "Change Password",
+    "NOTIFICATIONS": "Notifications",
+    "ENABLE_NOTIFICATIONS": "Enable Notifications",
+    "LANGUAGE": {
+      "TITLE": "Language",
+      "SPANISH": "Spanish",
+      "ENGLISH": "English"
+    },
+    "SHOW_MORE": "Show More",
+    "SHOW_LESS": "Show Less",
+    "THEFT_REPORT": {
+      "TITLE": "Theft Report",
+      "DESCRIPTION": "Enter your theft report details here.",
+      "SUBMIT": "Submit Report"
+    },
+    "DELETE_ACCOUNT": {
+      "TITLE": "Delete Account",
+      "CONFIRMATION": "Are you sure you want to delete your account? This action cannot be undone.",
+      "DELETE_BUTTON": "Delete Account"
+    },
+    "BACK_TO_HOME": "Back to Home",
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy Policy",
+      "DESCRIPTION": "Review our privacy policy to understand how we handle your information.",
+      "CONTENT": {
+        "TITLE": "Privacy Content",
+        "TEXT": "This is the privacy content.",
+        "CHANGE_TO_ENGLISH": "Change to English",
+        "CHANGE_TO_SPANISH": "Change to Spanish",
+        "COLLECTION_TITLE": "Information We Collect",
+        "COLLECTION_TEXT": "We collect the following information:",
+        "FULL_NAME": "Full Name",
+        "EMAIL": "Email",
+        "VEHICLE_INFO": "Vehicle Information",
+        "LOCATION": "Location",
+        "PAYMENT_INFO": "Payment Information",
+        "USE_TITLE": "How We Use Your Information",
+        "USE_TEXT": "We use your information to:",
+        "MANAGE_ACCOUNT": "Manage your account",
+        "NOTIFICATIONS": "Send notifications",
+        "IMPROVE_EXPERIENCE": "Improve your experience",
+        "SHARING_TITLE": "Sharing Your Information",
+        "SHARING_TEXT": "We do not share your information without consent.",
+        "SECURITY_TITLE": "Security of Your Information",
+        "SECURITY_TEXT": "We take security seriously and protect your information.",
+        "RIGHTS_TITLE": "Your Rights",
+        "RIGHTS_TEXT": "You have rights regarding your information.",
+        "CHANGES_TITLE": "Changes to This Policy",
+        "CHANGES_TEXT": "We may update this policy occasionally."
+      }
+    }
+  }
+}
